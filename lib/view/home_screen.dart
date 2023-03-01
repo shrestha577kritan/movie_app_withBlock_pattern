@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Color(0xff05103A),
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(50.h),
+        preferredSize: Size.fromHeight(70.h),
         child: AppBar(
           elevation: 0,
           backgroundColor: Color(0xff05103A),
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             );
                           },
                           options: CarouselOptions(
-                            height: 280.h,
+                            height: 380.h,
                             enlargeCenterPage: true,
                             enlargeStrategy: CenterPageEnlargeStrategy.height,
                             onPageChanged: (index, reason) {
